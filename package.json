@@ -1,0 +1,19 @@
+{
+  "name": "lambda-cognito-flow-CLIENT_CREDENTIAL",
+  "version": "1.0.0",
+  "description": "lambda-cognito-flow-CLIENT_CREDENTIAL",
+  "main": "index.js",
+  "scripts": {
+    "index": "node -e \"console.log(require('./index').handler({}, {}));\"",
+    "getToken": "node -e \"console.log(require('./getToken').handler({}, {}));\""
+  },
+  "author": "Jose Jair Mondragon Rios - jjmondragonrios@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2"
+  }
+}
